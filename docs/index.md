@@ -1,7 +1,7 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
 ### Example subsection 
-  - [Link to README](README.md)
+  - [Link to output](text_file.txt)
   
   Image should be below:
 

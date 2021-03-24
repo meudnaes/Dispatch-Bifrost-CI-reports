@@ -1,0 +1,1 @@
+having a link to a text file which in the future can contain the stdout
