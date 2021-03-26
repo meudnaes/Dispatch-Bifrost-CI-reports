@@ -1,9 +1,16 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
-### Example subsection 
-  - [Link to output](text_file.txt)
-  
-  Image should be below:
+Here are the results from the last run  
 
-  ![Test Image](test_image.png)
+## Brio & Wu results
+
+  ![briowu-rho](brio-wu_test_rho.png)
+  ![briowu-bd2](brio-wu_test_bd2.png)
+  ![briowu-ud](brio-wu_test_ud.png)
+
+## Advection of a Magnetic Field Loop 
+
+## Stdout on Jenkins terminal (actually err)
+  - [Link to output](output_file.txt)
+  
 

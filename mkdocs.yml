@@ -1,2 +1,12 @@
 site_name: Dispatch-Bifrost-CI-reports
 theme: flatly 
+nav:
+    - Home: 'index.md'
+    - 'Closer look': 'failinfo.md'
+    - 'Reference': 'reference.md'
+markdown_extensions:
+    - attr_list
+    - tables
+    
+
+
