@@ -1,1 +1,33 @@
-having a link to a text file which in the future can contain the stdout
+
+::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
+::: Compilation
+::: Running x direction
+::: Running y direction
+::: Running z direction
+::: Running plotting
+
+:::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
+::: Compilation
+
+:::::::::::::::::::: Advection MagLoop [stagger2/bifrost] :::::::::::::::::::
+::: Compilation
+::: Running xy plane
+::: Running yz plane
+::: Running zx plane
+
+:::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
+
+ 01 Brio&Wu [stagger2/bifrost] - compilation                     [ ALL  OK ]
+ 02 └──── x direction                                            [ ALL  OK ]
+ 03 └──── y direction                                            [ ALL  OK ]
+ 04 └──── z direction                                            [ ALL  OK ]
+ 05 └──── plotting                                               [ ALL  OK ]
+ 06 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
+ 07 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
+ 08 └──── xy plane                                               [ ALL  OK ]
+ 09 └──── yz plane                                               [ ALL  OK ]
+ 10 └──── zx plane                                               [ ALL  OK ]
+                                                                 -----------
+                                                                 10   /   10
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
