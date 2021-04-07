@@ -15,4 +15,15 @@ These plots can be a preliminar reference to the current experiments running in 
 
 ## Advection of Magnetic Field Loop
 
+<p float="left">
+   <img src="../img/magnetic_pressure_loop_xy_0.png" width="400" />
+   <img src="../img/magnetic_pressure_loop_xy_1.png" width="400" />
+</p>
+
+<p float="left">
+   <img src="../img/magnetic_pressure_loop_xy_4.png" width="400" />
+   <img src="../img/magnetic_pressure_loop_xy_5.png" width="400" />
+</p>
+
+![loop-pb-evolution](img/loop_xy_pb_evolution.png){: style="width:500px"}
 
