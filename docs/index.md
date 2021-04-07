@@ -13,7 +13,7 @@ Here are the results from the last run
 
   ![loop-pb](img/magnetic_pressure_loop_multiplot_test.png)
 
-## Stdout on Jenkins terminal (actually err)
+## Stdout on Jenkins terminal
   - [Link to output](output_file.txt)
   
 

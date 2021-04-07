@@ -4,26 +4,17 @@ These plots can be a preliminar reference to the current experiments running in 
 
 ## Brio & Wu
 
-<p float="left">
-   <img src="../img/brio-wu_bifrost_x_rho.png" width="400" />
-   <img src="../img/brio-wu_bifrost_x_by.png" width="400" />
-</p>
-
-<p float="left">
-   <img src="../img/brio-wu_bifrost_x_ux.png" width="400" />
-</p>
+![brio-wu-x-rho](img/brio-wu_bifrost_x_rho.png){: style="width:400px"}
+![brio-wu-x-by](img/brio-wu_bifrost_x_by.png){: style="width:400px"}
+![brio-wu-x-ux](img/brio-wu_bifrost_x_ux.png){: style="width:400px"}
 
 ## Advection of Magnetic Field Loop
 
-<p float="left">
-   <img src="../img/magnetic_pressure_loop_xy_0.png" width="400" />
-   <img src="../img/magnetic_pressure_loop_xy_1.png" width="400" />
-</p>
+![loop-xy-0](img/magnetic_pressure_loop_xy_0.png){: style="width:400px"}
+![loop-xy-1](img/magnetic_pressure_loop_xy_1.png){: style="width:400px"}
+![loop-xy-4](img/magnetic_pressure_loop_xy_4.png){: style="width:400px"}
+![loop-xy-5](img/magnetic_pressure_loop_xy_5.png){: style="width:400px"}
 
-<p float="left">
-   <img src="../img/magnetic_pressure_loop_xy_4.png" width="400" />
-   <img src="../img/magnetic_pressure_loop_xy_5.png" width="400" />
-</p>
 
 ![loop-pb-evolution](img/loop_xy_pb_evolution.png){: style="width:500px"}
 
