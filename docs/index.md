@@ -1,6 +1,7 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
-Here are the results from the last run associated with **Dispatch-Bifrost develop-testing-website, build #6**
+Here are the results from the last run associated with 
+**Dispatch-Bifrost develop-testing-website, build #6**
 
 ## Brio & Wu results
 
