@@ -1,77 +1,54 @@
 
-The repo hash for this run is: c46ed4e
+The repo hash for this run is: 61fdece
 
 The branch on which it was run: develop
 
 
 ::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
 ::: Compilation
-::: Running x direction
-::: Running y direction
-::: Running z direction
-::: Running plotting
+::: Compilation Errors:
+../../dispatch.f90(17): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call cartesian%init (task_list)               ! .. or else here ...
+-----------------------^
+../../dispatch.f90(18): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call dispatcher%execute (task_list)           ! Run dispatcher on the task_list
+---------------------------^
+compilation aborted for ../../dispatch.f90 (code 1)
+make: *** [dispatch.x] Error 1
+
 
 :::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
 ::: Compilation
+::: Compilation Errors:
+../../dispatch.f90(17): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call cartesian%init (task_list)               ! .. or else here ...
+-----------------------^
+../../dispatch.f90(18): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call dispatcher%execute (task_list)           ! Run dispatcher on the task_list
+---------------------------^
+compilation aborted for ../../dispatch.f90 (code 1)
+make: *** [dispatch.x] Error 1
+
 
 :::::::::::::::::::: Advection MagLoop [stagger2/bifrost] :::::::::::::::::::
 ::: Compilation
-::: Running xy plane
-::: Running yz plane
-::: Running zx plane
-::: Running plotting
-::: Runtime Warnings:
-
-/mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
-  self[key]
-yt : [INFO     ] 2021-05-11 10:03:45,949 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-05-11 10:03:45,949 Parameters: domain_dimensions         = [4 4 1]
-yt : [INFO     ] 2021-05-11 10:03:45,950 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
-yt : [INFO     ] 2021-05-11 10:03:45,951 Parameters: domain_right_edge         = [1.     0.5    0.0625]
-yt : [INFO     ] 2021-05-11 10:03:45,951 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-05-11 10:03:46,481 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:46,481 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:46,481 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:46,482 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:46,483 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
-/mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
-  self.image = self.axes.imshow(
-yt : [INFO     ] 2021-05-11 10:03:49,213 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-05-11 10:03:49,213 Parameters: domain_dimensions         = [1 4 4]
-yt : [INFO     ] 2021-05-11 10:03:49,214 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
-yt : [INFO     ] 2021-05-11 10:03:49,215 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
-yt : [INFO     ] 2021-05-11 10:03:49,215 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-05-11 10:03:50,712 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:50,712 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:50,713 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:50,713 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:50,714 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
-yt : [INFO     ] 2021-05-11 10:03:51,609 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-05-11 10:03:51,609 Parameters: domain_dimensions         = [4 1 4]
-yt : [INFO     ] 2021-05-11 10:03:51,609 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
-yt : [INFO     ] 2021-05-11 10:03:51,609 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
-yt : [INFO     ] 2021-05-11 10:03:51,610 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-05-11 10:03:52,572 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:52,572 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:52,573 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-05-11 10:03:52,573 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-05-11 10:03:52,574 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+::: Compilation Errors:
+../../dispatch.f90(17): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call cartesian%init (task_list)               ! .. or else here ...
+-----------------------^
+../../dispatch.f90(18): error #8300: If a dummy argument is allocatable or a pointer, and the dummy or its associated actual argument is polymorphic, both dummy and actual must be polymorphic with the same declared type or both must be unlimited polymorphic.   [TASK_LIST]
+  call dispatcher%execute (task_list)           ! Run dispatcher on the task_list
+---------------------------^
+compilation aborted for ../../dispatch.f90 (code 1)
+make: *** [dispatch.x] Error 1
 
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
 
- 01 Brio&Wu [stagger2/bifrost] - compilation                     [ ALL  OK ]
- 02 └──── x direction                                            [ ALL  OK ]
- 03 └──── y direction                                            [ ALL  OK ]
- 04 └──── z direction                                            [ ALL  OK ]
- 05 └──── plotting                                               [ ALL  OK ]
- 06 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
- 07 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
- 08 └──── xy plane                                               [ ALL  OK ]
- 09 └──── yz plane                                               [ ALL  OK ]
- 10 └──── zx plane                                               [ ALL  OK ]
- 11 └──── plotting                                               [ WARNING ]
+ 01 Brio&Wu [stagger2/bifrost] - compilation                     [ ERRORS! ]
+ 02 Brio&Wu [ramses/mhd_eos] - compilation                       [ ERRORS! ]
+ 03 Advection MagLoop [stagger2/bifrost] - compilation           [ ERRORS! ]
                                                                  -----------
-                                                                 11   /   11
+                                                                 0    /    3
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
