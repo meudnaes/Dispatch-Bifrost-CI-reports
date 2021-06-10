@@ -1,7 +1,7 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
 Here are the results from the last run associated with 
-**Dispatch-Bifrost develop, build #35**
+**Dispatch-Bifrost develop, build #36**
 
 ## Brio & Wu results
 
