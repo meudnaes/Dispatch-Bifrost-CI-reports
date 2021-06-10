@@ -1,85 +1,17 @@
 
-The repo hash for this run is: 4e74df2
+The repo hash for this run is: 7d4d19b
 
-The branch on which it was run: develop_ghex
+The branch on which it was run: develop
 
+
+::: Setting up enviroment for Intel Parallel Studio 2020
 
 ::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
 ::: Compilation
 ::: Running x direction
-::: Runtime Errors:
-
-
-dispatch.x:29134 terminated with signal 11 at PC=51082d SP=7f9b157f19b0.  Backtrace:
-./dispatch.x[0x51082d]
-./dispatch.x[0x52a473]
-./dispatch.x[0x5bb525]
-./dispatch.x[0x5be3a0]
-./dispatch.x[0x5bd739]
-./dispatch.x[0x43af80]
-./dispatch.x[0x43aca4]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f9b88b9b3f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7f9b88b1f273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7f9b88b1e21e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7f9b88b9b8cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7f9b8917aea5]
-/lib64/libc.so.6(clone+0x6d)[0x7f9b8879b9fd]
-
 ::: Running y direction
-::: Runtime Errors:
-
-
-dispatch.x:29183 terminated with signal 11 at PC=51082d SP=7f7c24fecab0.  Backtrace:
-./dispatch.x[0x51082d]
-./dispatch.x[0x52a473]
-./dispatch.x[0x5bb525]
-./dispatch.x[0x5be3a0]
-./dispatch.x[0x5bd739]
-./dispatch.x[0x43af80]
-./dispatch.x[0x43aca4]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f7ca60113f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7f7ca5f95273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7f7ca5f9421e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7f7ca60118cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7f7ca65f0ea5]
-/lib64/libc.so.6(clone+0x6d)[0x7f7ca5c119fd]
-
 ::: Running z direction
-::: Runtime Errors:
-
-
-dispatch.x:29308 terminated with signal 11 at PC=51082d SP=7f480dff33b0.  Backtrace:
-./dispatch.x[0x51082d]
-./dispatch.x[0x52a473]
-./dispatch.x[0x5bb525]
-./dispatch.x[0x5be3a0]
-./dispatch.x[0x5bd739]
-./dispatch.x[0x43af80]
-./dispatch.x[0x43aca4]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4817be93f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7f4817b6d273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7f4817b6c21e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7f4817be98cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7f48181c8ea5]
-/lib64/libc.so.6(clone+0x6d)[0x7f48177e99fd]
-
 ::: Running plotting
-::: Runtime Errors:
-
-Traceback (most recent call last):
-  File "python/plot_test_suite.py", line 26, in <module>
-    dg.plot_values_along(ss[0],[0.00,0.000,0.000],dir=direction,iv='d', ls=lines[direction], label=run)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/graphics/_graphics.py", line 65, in plot_values_along
-    plot(ds.values_along(pp,pt,iv=kv['iv'],dir=kv['dir'],all=kv['all']),**kw)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/select/_select.py", line 230, in values_along
-    patches=patches_along(pp,point,dir=dir,verbose=verbose)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/select/_select.py", line 69, in patches_along
-    p=patch_at(pp,pt)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/select/_select.py", line 35, in patch_at
-    for p in pp:
-TypeError: 'snapshot' object is not iterable
-cp: cannot stat ‘*.png’: No such file or directory
-
 
 :::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
 ::: Compilation
@@ -87,94 +19,64 @@ cp: cannot stat ‘*.png’: No such file or directory
 :::::::::::::::::::: Advection MagLoop [stagger2/bifrost] :::::::::::::::::::
 ::: Compilation
 ::: Running xy plane
-::: Runtime Errors:
-
-
-dispatch.x:36708 terminated with signal 11 at PC=5194b1 SP=7f90a5ff35b0.  Backtrace:
-./dispatch.x[0x5194b1]
-./dispatch.x[0x5330f7]
-./dispatch.x[0x5c6941]
-./dispatch.x[0x5c97bc]
-./dispatch.x[0x5c8b55]
-./dispatch.x[0x43a0f4]
-./dispatch.x[0x439e18]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f90d09c53f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7f90d0949273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7f90d094821e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7f90d09c58cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7f90d0fa4ea5]
-/lib64/libc.so.6(clone+0x6d)[0x7f90d05c59fd]
-
 ::: Running yz plane
-::: Runtime Errors:
-
-
-dispatch.x:36830 terminated with signal 11 at PC=5194b1 SP=7fd5c4fecab0.  Backtrace:
-./dispatch.x[0x5194b1]
-./dispatch.x[0x5330f7]
-./dispatch.x[0x5c6941]
-./dispatch.x[0x5c97bc]
-./dispatch.x[0x5c8b55]
-./dispatch.x[0x43a0f4]
-./dispatch.x[0x439e18]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7fd6461eb3f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7fd64616f273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7fd64616e21e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7fd6461eb8cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7fd6467caea5]
-/lib64/libc.so.6(clone+0x6d)[0x7fd645deb9fd]
-
 ::: Running zx plane
-::: Runtime Errors:
-
-
-dispatch.x:36882 terminated with signal 11 at PC=5194b1 SP=7f456bffad30.  Backtrace:
-./dispatch.x[0x5194b1]
-./dispatch.x[0x5330f7]
-./dispatch.x[0x5c6941]
-./dispatch.x[0x5c97bc]
-./dispatch.x[0x5c8b55]
-./dispatch.x[0x43a0f4]
-./dispatch.x[0x439e18]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(__kmp_invoke_microtask+0x93)[0x7f4632ffe3f3]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb4273)[0x7f4632f82273]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0xb321e)[0x7f4632f8121e]
-/astro/local/opt/Intel/compilers_and_libraries_2020.4.304/linux/compiler/lib/intel64_lin/libiomp5.so(+0x1308cc)[0x7f4632ffe8cc]
-/lib64/libpthread.so.0(+0x7ea5)[0x7f46335ddea5]
-/lib64/libc.so.6(clone+0x6d)[0x7f4632bfe9fd]
-
 ::: Running plotting
-::: Runtime Errors:
+::: Runtime Warnings:
 
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
   self[key]
-Traceback (most recent call last):
-  File "python/plot_test_suite.py", line 34, in <module>
-    ds = dyt.open_amr(iout=iout,run=run,data=data,verbose=0)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/yt/_yt.py", line 111, in open_amr
-    return snapshot(iout=iout,run=run,data=data,verbose=verbose,copy=copy,aux=aux)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/yt/_yt.py", line 125, in snapshot
-    parameters=dispatch.yt.parameters(s)
-  File "/var/lib/jenkins/workspace/Dispatch-Bifrost_develop_ghex/utilities/python/dispatch/yt/_yt.py", line 16, in parameters
-    p=s.patches[0]
-AttributeError: 'snapshot' object has no attribute 'patches'
-cp: cannot stat ‘*.png’: No such file or directory
+yt : [INFO     ] 2021-06-10 19:28:44,831 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-10 19:28:44,831 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-06-10 19:28:44,831 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-06-10 19:28:44,832 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-06-10 19:28:44,833 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-10 19:28:45,415 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:45,415 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:45,416 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:45,416 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:45,417 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+/mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  self.image = self.axes.imshow(
+yt : [INFO     ] 2021-06-10 19:28:48,021 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-10 19:28:48,022 Parameters: domain_dimensions         = [1 4 4]
+yt : [INFO     ] 2021-06-10 19:28:48,022 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
+yt : [INFO     ] 2021-06-10 19:28:48,023 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
+yt : [INFO     ] 2021-06-10 19:28:48,023 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-10 19:28:49,116 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:49,116 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:49,117 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:49,117 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:49,118 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-10 19:28:49,717 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-10 19:28:49,718 Parameters: domain_dimensions         = [4 1 4]
+yt : [INFO     ] 2021-06-10 19:28:49,718 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
+yt : [INFO     ] 2021-06-10 19:28:49,718 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
+yt : [INFO     ] 2021-06-10 19:28:49,718 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-10 19:28:50,699 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:50,700 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:50,700 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-10 19:28:50,700 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-10 19:28:50,701 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
 
+:: (env) Intel Parallel Studio 2020                              
+
  01 Brio&Wu [stagger2/bifrost] - compilation                     [ ALL  OK ]
- 02 └──── x direction                                            [ ERRORS! ]
- 03 └──── y direction                                            [ ERRORS! ]
- 04 └──── z direction                                            [ ERRORS! ]
- 05 └──── plotting                                               [ ERRORS! ]
+ 02 └──── x direction                                            [ ALL  OK ]
+ 03 └──── y direction                                            [ ALL  OK ]
+ 04 └──── z direction                                            [ ALL  OK ]
+ 05 └──── plotting                                               [ ALL  OK ]
  06 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
  07 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
- 08 └──── xy plane                                               [ ERRORS! ]
- 09 └──── yz plane                                               [ ERRORS! ]
- 10 └──── zx plane                                               [ ERRORS! ]
- 11 └──── plotting                                               [ ERRORS! ]
+ 08 └──── xy plane                                               [ ALL  OK ]
+ 09 └──── yz plane                                               [ ALL  OK ]
+ 10 └──── zx plane                                               [ ALL  OK ]
+ 11 └──── plotting                                               [ WARNING ]
                                                                  -----------
-                                                                 3    /   11
+                                                                 11   /   11
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
