@@ -2,7 +2,7 @@
 
 The repo hash for this run is: 4acb4b2
 
-The branch on which it was run: ghex_ci
+The branch on which it was run: PR-11
 
 
 ::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
@@ -25,38 +25,38 @@ The branch on which it was run: ghex_ci
 
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
   self[key]
-yt : [INFO     ] 2021-06-14 14:04:14,797 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:14,797 Parameters: domain_dimensions         = [4 4 1]
-yt : [INFO     ] 2021-06-14 14:04:14,798 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
-yt : [INFO     ] 2021-06-14 14:04:14,798 Parameters: domain_right_edge         = [1.     0.5    0.0625]
-yt : [INFO     ] 2021-06-14 14:04:14,799 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:15,332 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:15,333 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:15,333 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:15,333 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:15,334 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 14:04:14,790 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 14:04:14,791 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-06-14 14:04:14,791 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-06-14 14:04:14,792 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-06-14 14:04:14,793 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 14:04:15,335 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:15,335 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:15,336 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:15,336 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:15,336 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   self.image = self.axes.imshow(
-yt : [INFO     ] 2021-06-14 14:04:17,267 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:17,267 Parameters: domain_dimensions         = [1 4 4]
-yt : [INFO     ] 2021-06-14 14:04:17,268 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
-yt : [INFO     ] 2021-06-14 14:04:17,268 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
-yt : [INFO     ] 2021-06-14 14:04:17,268 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:18,328 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:18,328 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:18,329 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:18,329 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:18,330 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
-yt : [INFO     ] 2021-06-14 14:04:18,912 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:18,912 Parameters: domain_dimensions         = [4 1 4]
-yt : [INFO     ] 2021-06-14 14:04:18,912 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
-yt : [INFO     ] 2021-06-14 14:04:18,913 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
-yt : [INFO     ] 2021-06-14 14:04:18,913 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:19,849 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:19,849 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:19,849 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:19,849 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:19,850 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_dimensions         = [1 4 4]
+yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
+yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
+yt : [INFO     ] 2021-06-14 14:04:17,436 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 14:04:18,460 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:18,460 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:18,461 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:18,461 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:18,462 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 14:04:19,053 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 14:04:19,053 Parameters: domain_dimensions         = [4 1 4]
+yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
+yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
+yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 14:04:20,006 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:20,006 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:20,007 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 14:04:20,007 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 14:04:20,008 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
