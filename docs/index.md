@@ -1,7 +1,7 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
 Here are the results from the last run associated with 
-**Dispatch-Bifrost ghex_ci, build #1**
+**Dispatch-Bifrost develop_ghex, build #3**
 
 ## Brio & Wu results
 

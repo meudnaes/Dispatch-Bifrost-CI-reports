@@ -1,9 +1,10 @@
-::: using MPI backend
 
-The repo hash for this run is: 4acb4b2
+The repo hash for this run is: 0335ae8
 
-The branch on which it was run: PR-11
+The branch on which it was run: develop_ghex
 
+
+::: Setting up enviroment for Intel Parallel Studio 2020
 
 ::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
 ::: Compilation
@@ -25,41 +26,43 @@ The branch on which it was run: PR-11
 
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
   self[key]
-yt : [INFO     ] 2021-06-14 14:04:14,790 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:14,791 Parameters: domain_dimensions         = [4 4 1]
-yt : [INFO     ] 2021-06-14 14:04:14,791 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
-yt : [INFO     ] 2021-06-14 14:04:14,792 Parameters: domain_right_edge         = [1.     0.5    0.0625]
-yt : [INFO     ] 2021-06-14 14:04:14,793 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:15,335 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:15,335 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:15,336 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:15,336 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:15,336 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 15:23:55,328 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 15:23:55,329 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-06-14 15:23:55,329 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-06-14 15:23:55,329 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-06-14 15:23:55,329 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 15:23:55,837 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:23:55,838 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:23:55,838 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:23:55,838 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:23:55,839 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   self.image = self.axes.imshow(
-yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_dimensions         = [1 4 4]
-yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
-yt : [INFO     ] 2021-06-14 14:04:17,435 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
-yt : [INFO     ] 2021-06-14 14:04:17,436 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:18,460 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:18,460 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:18,461 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:18,461 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:18,462 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
-yt : [INFO     ] 2021-06-14 14:04:19,053 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-06-14 14:04:19,053 Parameters: domain_dimensions         = [4 1 4]
-yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
-yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
-yt : [INFO     ] 2021-06-14 14:04:19,054 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-06-14 14:04:20,006 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:20,006 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:20,007 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-06-14 14:04:20,007 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-06-14 14:04:20,008 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 15:23:58,335 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 15:23:58,335 Parameters: domain_dimensions         = [1 4 4]
+yt : [INFO     ] 2021-06-14 15:23:58,336 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
+yt : [INFO     ] 2021-06-14 15:23:58,336 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
+yt : [INFO     ] 2021-06-14 15:23:58,336 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 15:23:59,372 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:23:59,372 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:23:59,373 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:23:59,373 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:23:59,374 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-06-14 15:23:59,981 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-06-14 15:23:59,981 Parameters: domain_dimensions         = [4 1 4]
+yt : [INFO     ] 2021-06-14 15:23:59,982 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
+yt : [INFO     ] 2021-06-14 15:23:59,982 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
+yt : [INFO     ] 2021-06-14 15:23:59,982 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-06-14 15:24:00,948 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:24:00,948 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:24:00,949 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-06-14 15:24:00,949 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-06-14 15:24:00,950 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
+
+:: (env) Intel Parallel Studio 2020                              
 
  01 Brio&Wu [stagger2/bifrost] - compilation                     [ ALL  OK ]
  02 └──── x direction                                            [ ALL  OK ]
@@ -74,5 +77,6 @@ yt : [INFO     ] 2021-06-14 14:04:20,008 Making a fixed resolution buffer of (('
  11 └──── plotting                                               [ WARNING ]
                                                                  -----------
                                                                  11   /   11
+
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
