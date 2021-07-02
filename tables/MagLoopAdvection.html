@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Dispatch-Bifrost-CI-reports</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>MagLoopAdvection - Dispatch-Bifrost-CI-reports</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/docco.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Dispatch-Bifrost-CI-reports</a>
+                <a class="navbar-brand" href="../index.html">Dispatch-Bifrost-CI-reports</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,14 +33,14 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="index.html" class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href="../index.html" class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="failinfo.html" class="nav-link">Closer look</a>
+                                <a href="../failinfo.html" class="nav-link">Closer look</a>
                             </li>
                             <li class="navitem">
-                                <a href="reference.html" class="nav-link">Reference</a>
+                                <a href="../reference.html" class="nav-link">Reference</a>
                             </li>
                         </ul>
 
@@ -50,16 +50,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="failinfo.html" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -78,22 +68,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#welcome-to-dispatch-bifrost-ci-pages" class="nav-link">Welcome to Dispatch-Bifrost CI pages</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#brio-wu-results" class="nav-link">Brio &amp; Wu results</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#advection-of-a-magnetic-field-loop" class="nav-link">Advection of a Magnetic Field Loop</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#stdout-on-jenkins-terminal" class="nav-link">Stdout on Jenkins terminal</a>
+            <li class="nav-item" data-level="2"><a href="#magloopadvection-errors" class="nav-link">MagLoopAdvection errors</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -102,21 +77,103 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="welcome-to-dispatch-bifrost-ci-pages">Welcome to Dispatch-Bifrost CI pages</h2>
-<p>Here are the results from the last run associated with 
-<strong>Dispatch-Bifrost develop_ghex, build #4</strong></p>
-<h2 id="brio-wu-results">Brio &amp; Wu results</h2>
-<p><img alt="briowu-rho" src="img/brio-wu_test_rho.png" style="width:400px" />
-  <img alt="briowu-bd2" src="img/brio-wu_test_bd2.png" style="width:400px" />
-  <img alt="briowu-ud" src="img/brio-wu_test_ud.png" style="width:400px" /></p>
-<p><strong><a href="tables/brio-wu.html">Tables</a></strong></p>
-<h2 id="advection-of-a-magnetic-field-loop">Advection of a Magnetic Field Loop</h2>
-<p><img alt="loop-pb" src="img/magnetic_pressure_loop_multiplot_test.png" /></p>
-<p><strong><a href="tables/MagLoopAdvection.html">Tables</a></strong></p>
-<h2 id="stdout-on-jenkins-terminal">Stdout on Jenkins terminal</h2>
-<ul>
-<li><a href="output_file.txt">Link to output</a></li>
-</ul></div>
+<h2 id="magloopadvection-errors">MagLoopAdvection errors</h2>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Absolute error</th>
+<th>Relative error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>bx</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>by</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>bz</td>
+<td>0.0</td>
+<td>nan</td>
+</tr>
+<tr>
+<td>density</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>e</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>ed</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>ee</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>emag</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>magnetic_field_x</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>magnetic_field_y</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>magnetic_field_z</td>
+<td>0.0</td>
+<td>nan</td>
+</tr>
+<tr>
+<td>px</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>py</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>pz</td>
+<td>0.0</td>
+<td>nan</td>
+</tr>
+<tr>
+<td>velocity_x</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>velocity_y</td>
+<td>0.0</td>
+<td>0.0</td>
+</tr>
+<tr>
+<td>velocity_z</td>
+<td>0.0</td>
+<td>nan</td>
+</tr>
+</tbody>
+</table></div>
             </div>
         </div>
 
@@ -125,11 +182,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -194,8 +251,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.1
-Build Date UTC : 2021-07-02 08:19:00.271675+00:00
--->
