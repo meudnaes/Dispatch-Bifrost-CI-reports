@@ -9,13 +9,13 @@ Here are the results from the last run associated with
   ![briowu-bd2](img/brio-wu_test_bd2.png){: style="width:400px"}
   ![briowu-ud](img/brio-wu_test_ud.png){: style="width:400px"}
   
-  **[Tables](tables/brio-wu.md)**
+  **[Comparison to reference](tables/brio-wu.md)**
 
 ## Advection of a Magnetic Field Loop 
 
   ![loop-pb](img/magnetic_pressure_loop_multiplot_test.png)
   
-  **[Tables](tables/MagLoopAdvection.md)**
+  **[Comparison to reference](tables/MagLoopAdvection.md)**
 
 ## Stdout on Jenkins terminal
   - [Link to output](output_file.txt)
