@@ -1,7 +1,7 @@
 
-The repo hash for this run is: 2ea0b04
+The repo hash for this run is: 62388ef
 
-The branch on which it was run: develop
+The branch on which it was run: develop-comparison-tool
 
 
 ::: Setting up enviroment for Intel Parallel Studio 2020
@@ -12,6 +12,22 @@ The branch on which it was run: develop
 ::: Running y direction
 ::: Running z direction
 ::: Running plotting
+::: Running comparison
+::: Runtime Warnings:
+
+/mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
+  self[key]
+yt : [INFO     ] 2021-07-06 15:58:35,315 Parameters: current_time              = 0.1
+yt : [INFO     ] 2021-07-06 15:58:35,315 Parameters: domain_dimensions         = [5 1 1]
+yt : [INFO     ] 2021-07-06 15:58:35,316 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2021-07-06 15:58:35,317 Parameters: domain_right_edge         = [1.    0.003 0.003]
+yt : [INFO     ] 2021-07-06 15:58:35,318 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-06 15:58:35,449 Parameters: current_time              = 0.1
+yt : [INFO     ] 2021-07-06 15:58:35,449 Parameters: domain_dimensions         = [5 1 1]
+yt : [INFO     ] 2021-07-06 15:58:35,450 Parameters: domain_left_edge          = [0. 0. 0.]
+yt : [INFO     ] 2021-07-06 15:58:35,450 Parameters: domain_right_edge         = [1.    0.003 0.003]
+yt : [INFO     ] 2021-07-06 15:58:35,451 Parameters: cosmological_simulation   = 0.0
+
 
 :::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
 ::: Compilation
@@ -26,38 +42,54 @@ The branch on which it was run: develop
 
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
   self[key]
-yt : [INFO     ] 2021-07-03 23:44:00,298 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-07-03 23:44:00,298 Parameters: domain_dimensions         = [4 4 1]
-yt : [INFO     ] 2021-07-03 23:44:00,299 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
-yt : [INFO     ] 2021-07-03 23:44:00,299 Parameters: domain_right_edge         = [1.     0.5    0.0625]
-yt : [INFO     ] 2021-07-03 23:44:00,299 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-07-03 23:44:00,810 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:00,810 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:00,811 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:00,811 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:00,811 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-07-06 16:04:02,421 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-06 16:04:02,421 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-07-06 16:04:02,422 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-07-06 16:04:02,423 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-07-06 16:04:02,423 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-06 16:04:02,967 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:02,967 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:02,968 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:02,968 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:02,969 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
   self.image = self.axes.imshow(
-yt : [INFO     ] 2021-07-03 23:44:03,337 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-07-03 23:44:03,337 Parameters: domain_dimensions         = [1 4 4]
-yt : [INFO     ] 2021-07-03 23:44:03,338 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
-yt : [INFO     ] 2021-07-03 23:44:03,338 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
-yt : [INFO     ] 2021-07-03 23:44:03,339 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-07-03 23:44:04,538 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:04,538 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:04,539 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:04,539 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:04,539 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
-yt : [INFO     ] 2021-07-03 23:44:05,153 Parameters: current_time              = 1.0
-yt : [INFO     ] 2021-07-03 23:44:05,153 Parameters: domain_dimensions         = [4 1 4]
-yt : [INFO     ] 2021-07-03 23:44:05,153 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
-yt : [INFO     ] 2021-07-03 23:44:05,154 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
-yt : [INFO     ] 2021-07-03 23:44:05,154 Parameters: cosmological_simulation   = 0.0
-yt : [INFO     ] 2021-07-03 23:44:06,122 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:06,122 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:06,123 xlim = -1.000000 1.000000
-yt : [INFO     ] 2021-07-03 23:44:06,123 ylim = -0.500000 0.500000
-yt : [INFO     ] 2021-07-03 23:44:06,124 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-07-06 16:04:05,789 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-06 16:04:05,790 Parameters: domain_dimensions         = [1 4 4]
+yt : [INFO     ] 2021-07-06 16:04:05,790 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
+yt : [INFO     ] 2021-07-06 16:04:05,791 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
+yt : [INFO     ] 2021-07-06 16:04:05,792 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-06 16:04:06,995 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:06,996 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:06,996 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:06,997 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:06,998 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-07-06 16:04:07,608 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-06 16:04:07,608 Parameters: domain_dimensions         = [4 1 4]
+yt : [INFO     ] 2021-07-06 16:04:07,608 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
+yt : [INFO     ] 2021-07-06 16:04:07,609 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
+yt : [INFO     ] 2021-07-06 16:04:07,609 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-06 16:04:08,572 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:08,573 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:08,573 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-06 16:04:08,573 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-06 16:04:08,574 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+
+::: Running comparison
+::: Runtime Warnings:
+
+/mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
+  self[key]
+yt : [INFO     ] 2021-07-06 16:04:15,516 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-06 16:04:15,516 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-07-06 16:04:15,517 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-07-06 16:04:15,517 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-07-06 16:04:15,518 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-06 16:04:15,858 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-06 16:04:15,859 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-07-06 16:04:15,859 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-07-06 16:04:15,860 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-07-06 16:04:15,860 Parameters: cosmological_simulation   = 0.0
 
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
@@ -69,14 +101,16 @@ yt : [INFO     ] 2021-07-03 23:44:06,124 Making a fixed resolution buffer of (('
  03 └──── y direction                                            [ ALL  OK ]
  04 └──── z direction                                            [ ALL  OK ]
  05 └──── plotting                                               [ ALL  OK ]
- 06 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
- 07 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
- 08 └──── xy plane                                               [ ALL  OK ]
- 09 └──── yz plane                                               [ ALL  OK ]
- 10 └──── zx plane                                               [ ALL  OK ]
- 11 └──── plotting                                               [ WARNING ]
+ 06 └──── comparison                                             [ WARNING ]
+ 07 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
+ 08 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
+ 09 └──── xy plane                                               [ ALL  OK ]
+ 10 └──── yz plane                                               [ ALL  OK ]
+ 11 └──── zx plane                                               [ ALL  OK ]
+ 12 └──── plotting                                               [ WARNING ]
+ 13 └──── comparison                                             [ WARNING ]
                                                                  -----------
-                                                                 11   /   11
+                                                                 13   /   13
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
