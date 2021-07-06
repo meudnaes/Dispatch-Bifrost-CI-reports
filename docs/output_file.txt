@@ -1,5 +1,5 @@
 
-The repo hash for this run is: e416dc4
+The repo hash for this run is: 6ced421
 
 The branch on which it was run: develop-comparison-tool
 
@@ -32,8 +32,6 @@ The branch on which it was run: develop-comparison-tool
 
 /mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
   self[key]
-/mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
-  self.image = self.axes.imshow(
 
 ::: Running comparison
 ::: Runtime Warnings:
