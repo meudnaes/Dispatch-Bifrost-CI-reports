@@ -1,7 +1,7 @@
 
 The repo hash for this run is: 637b4b9
 
-The branch on which it was run: develop-comparison-tool
+The branch on which it was run: develop
 
 
 ::: Setting up enviroment for Intel Parallel Studio 2020
