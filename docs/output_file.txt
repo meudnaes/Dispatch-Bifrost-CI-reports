@@ -1,7 +1,7 @@
 
-The repo hash for this run is: 637b4b9
+The repo hash for this run is: 4fbaa59
 
-The branch on which it was run: develop
+The branch on which it was run: fork_merger
 
 
 ::: Setting up enviroment for Intel Parallel Studio 2020
@@ -12,7 +12,6 @@ The branch on which it was run: develop
 ::: Running y direction
 ::: Running z direction
 ::: Running plotting
-::: Running comparison
 
 :::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
 ::: Compilation
@@ -23,7 +22,43 @@ The branch on which it was run: develop
 ::: Running yz plane
 ::: Running zx plane
 ::: Running plotting
-::: Running comparison
+::: Runtime Warnings:
+
+/mn/stornext/u3/miko/anaconda3/lib/python3.8/_collections_abc.py:666: MatplotlibDeprecationWarning: The global colormaps dictionary is no longer considered public API.
+  self[key]
+yt : [INFO     ] 2021-07-13 17:23:57,462 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-13 17:23:57,462 Parameters: domain_dimensions         = [4 4 1]
+yt : [INFO     ] 2021-07-13 17:23:57,463 Parameters: domain_left_edge          = [-1.  -0.5  0. ]
+yt : [INFO     ] 2021-07-13 17:23:57,463 Parameters: domain_right_edge         = [1.     0.5    0.0625]
+yt : [INFO     ] 2021-07-13 17:23:57,464 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-13 17:23:58,094 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:23:58,094 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:23:58,095 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:23:58,095 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:23:58,096 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+/mn/stornext/u3/miko/anaconda3/lib/python3.8/site-packages/yt/visualization/base_plot_types.py:255: MatplotlibDeprecationWarning: Passing parameters norm and vmin/vmax simultaneously is deprecated since 3.3 and will become an error two minor releases later. Please pass vmin/vmax directly to the norm when creating it.
+  self.image = self.axes.imshow(
+yt : [INFO     ] 2021-07-13 17:24:00,723 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-13 17:24:00,723 Parameters: domain_dimensions         = [1 4 4]
+yt : [INFO     ] 2021-07-13 17:24:00,723 Parameters: domain_left_edge          = [ 0.  -1.  -0.5]
+yt : [INFO     ] 2021-07-13 17:24:00,724 Parameters: domain_right_edge         = [0.0625 1.     0.5   ]
+yt : [INFO     ] 2021-07-13 17:24:00,724 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-13 17:24:01,760 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:24:01,760 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:24:01,761 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:24:01,761 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:24:01,762 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+yt : [INFO     ] 2021-07-13 17:24:02,361 Parameters: current_time              = 1.0
+yt : [INFO     ] 2021-07-13 17:24:02,361 Parameters: domain_dimensions         = [4 1 4]
+yt : [INFO     ] 2021-07-13 17:24:02,361 Parameters: domain_left_edge          = [-0.5  0.  -1. ]
+yt : [INFO     ] 2021-07-13 17:24:02,362 Parameters: domain_right_edge         = [0.5    0.0625 1.    ]
+yt : [INFO     ] 2021-07-13 17:24:02,362 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2021-07-13 17:24:03,322 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:24:03,322 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:24:03,323 xlim = -1.000000 1.000000
+yt : [INFO     ] 2021-07-13 17:24:03,323 ylim = -0.500000 0.500000
+yt : [INFO     ] 2021-07-13 17:24:03,323 Making a fixed resolution buffer of (('gas', 'magnetic_pressure')) 800 by 800
+
 
 :::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
 
@@ -34,16 +69,14 @@ The branch on which it was run: develop
  03 └──── y direction                                            [ ALL  OK ]
  04 └──── z direction                                            [ ALL  OK ]
  05 └──── plotting                                               [ ALL  OK ]
- 06 └──── comparison                                             [ ALL  OK ]
- 07 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
- 08 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
- 09 └──── xy plane                                               [ ALL  OK ]
- 10 └──── yz plane                                               [ ALL  OK ]
- 11 └──── zx plane                                               [ ALL  OK ]
- 12 └──── plotting                                               [ ALL  OK ]
- 13 └──── comparison                                             [ ALL  OK ]
+ 06 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
+ 07 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
+ 08 └──── xy plane                                               [ ALL  OK ]
+ 09 └──── yz plane                                               [ ALL  OK ]
+ 10 └──── zx plane                                               [ ALL  OK ]
+ 11 └──── plotting                                               [ WARNING ]
                                                                  -----------
-                                                                 13   /   13
+                                                                 11   /   11
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
