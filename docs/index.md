@@ -11,11 +11,11 @@ Here are the results from the last run associated with
   
   **[Comparison to reference](tables/brio-wu.md)**
 
-**Sod shock tube comparison to analytical results**
+## Sod shock tube comparison to analytical results
 
   ![sodshock-rho](img/sod_bifrost_x_rho.png){: style="width:400px"}
   ![sodshock-p](img/sod_bifrost_x_p.png){: style="width:400px"}
-  ![sodshock-ux](img/sod_bifrost_x_u.png){: style="width:400px"}
+  ![sodshock-ux](img/sod_bifrost_x_ux.png){: style="width:400px"}
 
 ## Advection of a Magnetic Field Loop 
 
