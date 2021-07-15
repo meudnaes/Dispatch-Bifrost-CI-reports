@@ -1,7 +1,7 @@
 
-The repo hash for this run is: 5e8f853
+The repo hash for this run is: e71cc90
 
-The branch on which it was run: develop
+The branch on which it was run: develop-sod-testsuite
 
 
 ::: Setting up enviroment for Intel Parallel Studio 2020
