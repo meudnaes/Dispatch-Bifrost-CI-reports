@@ -1,5 +1,5 @@
 
-The repo hash for this run is: e71cc90
+The repo hash for this run is: aff3841
 
 The branch on which it was run: develop-sod-testsuite
 
@@ -13,6 +13,7 @@ The branch on which it was run: develop-sod-testsuite
 ::: Running z direction
 ::: Running plotting
 ::: Running comparison
+::: Running sod + analytical
 
 :::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
 ::: Compilation
@@ -35,15 +36,16 @@ The branch on which it was run: develop-sod-testsuite
  04 └──── z direction                                            [ ALL  OK ]
  05 └──── plotting                                               [ ALL  OK ]
  06 └──── comparison                                             [ ALL  OK ]
- 07 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
- 08 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
- 09 └──── xy plane                                               [ ALL  OK ]
- 10 └──── yz plane                                               [ ALL  OK ]
- 11 └──── zx plane                                               [ ALL  OK ]
- 12 └──── plotting                                               [ ALL  OK ]
- 13 └──── comparison                                             [ ALL  OK ]
+ 07 └──── sod + analytical                                       [ ALL  OK ]
+ 08 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
+ 09 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
+ 10 └──── xy plane                                               [ ALL  OK ]
+ 11 └──── yz plane                                               [ ALL  OK ]
+ 12 └──── zx plane                                               [ ALL  OK ]
+ 13 └──── plotting                                               [ ALL  OK ]
+ 14 └──── comparison                                             [ ALL  OK ]
                                                                  -----------
-                                                                 13   /   13
+                                                                 14   /   14
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
