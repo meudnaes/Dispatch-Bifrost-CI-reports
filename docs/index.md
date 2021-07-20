@@ -1,7 +1,7 @@
 ## Welcome to Dispatch-Bifrost CI pages 
 
 Here are the results from the last run associated with 
-**Dispatch-Bifrost develop, build #46**
+**Dispatch-Bifrost develop-sedov-testsuite, build #1**
 
 ## Brio & Wu results
 
