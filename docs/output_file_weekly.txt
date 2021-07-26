@@ -1,0 +1,47 @@
+
+The repo hash for this run is: ecba0b0
+
+The branch on which it was run: develop-sedov-testsuite
+
+
+::: Setting up enviroment for Intel Parallel Studio 2020
+
+::::::::::::::::::::::::: Brio&Wu [stagger2/bifrost] ::::::::::::::::::::::::
+::: Compilation
+::: Running x direction
+::: Running x direction with -np 5
+::: Running x direction with -np 5 and 4 threads
+
+:::::::::::::::::::::::::: Brio&Wu [ramses/mhd_eos] :::::::::::::::::::::::::
+::: Compilation
+::: Running x direction
+::: Running x direction with -np 2
+::: Running x direction with -np 2 and 4 threads
+
+:::::::::::::::::::: Advection MagLoop [stagger2/bifrost] :::::::::::::::::::
+::: Compilation
+::: Running xy plane
+::: Running xy plane with -np 4
+::: Running xy plane with -np 4 and 4 threads
+
+:::::::::::::::::::::::::::::::::: SUMMARY ::::::::::::::::::::::::::::::::::
+
+:: (env) Intel Parallel Studio 2020                              
+
+ 01 Brio&Wu [stagger2/bifrost] - compilation                     [ ALL  OK ]
+ 02 └──── x direction                                            [ ALL  OK ]
+ 03 └──── x direction with -np 5                                 [ ALL  OK ]
+ 04 └──── x direction with -np 5 and 4 threads                   [ ALL  OK ]
+ 05 Brio&Wu [ramses/mhd_eos] - compilation                       [ ALL  OK ]
+ 06 └──── x direction                                            [ ALL  OK ]
+ 07 └──── x direction with -np 2                                 [ ALL  OK ]
+ 08 └──── x direction with -np 2 and 4 threads                   [ ALL  OK ]
+ 09 Advection MagLoop [stagger2/bifrost] - compilation           [ ALL  OK ]
+ 10 └──── xy plane                                               [ ALL  OK ]
+ 11 └──── xy plane with -np 4                                    [ ALL  OK ]
+ 12 └──── xy plane with -np 4 and 4 threads                      [ ALL  OK ]
+                                                                 -----------
+                                                                 12   /   12
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

@@ -3,6 +3,7 @@ theme: flatly
 nav:
     - Home: 'index.md'
     - 'Closer look': 'failinfo.md'
+    - 'Weekly': 'weekly.md'
     - 'Reference': 'reference.md'
 markdown_extensions:
     - attr_list

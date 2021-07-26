@@ -23,13 +23,6 @@ Here are the results from the last run associated with
   
   **[Comparison to reference](tables/MagLoopAdvection.md)**
 
-## Sedov Blast comparison to analytical results
-
-  ![sedov-rho](img/sedov_bifrost_xy_rho.png){: style="width:400px"}
-  ![sedov-p](img/sedov_bifrost_xy_p.png){: style="width:400px"}
-  ![sedov-ux](img/sedov_bifrost_xy_ux.png){: style="width:400px"}
-  ![sedov-e](img/sedov_bifrost_xy_e.png){: style="width:400px"}
-
 ## Stdout on Jenkins terminal
   - [Link to output](output_file.txt)
   
